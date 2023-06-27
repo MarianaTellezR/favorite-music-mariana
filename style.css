@@ -1,0 +1,55 @@
+header {
+  background: linear-gradient(
+    93deg,
+    rgb(251, 251, 253) 0%,
+    rgb(233, 232, 248) 100%
+  );
+  width: 100%;
+
+  height: 500px;
+}
+
+.navigation-bar {
+  padding: 40px 15px;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 60px 30px;
+  padding: 50px;
+  text-align: center;
+  font-family: "Unica One", cursive;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  transition: all 145ms ease-in-out;
+}
+
+ul li a:hover {
+  color: #9180be;
+  cursor: pointer;
+  text-shadow: rgb(130, 112, 129) 1px 0 10px;
+}
+
+i {
+  color: #213150;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+i:hover {
+  color: #9180be;
+  cursor: pointer;
+  text-shadow: rgb(130, 112, 129) 1px 0 10px;
+}
