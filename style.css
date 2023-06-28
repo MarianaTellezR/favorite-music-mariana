@@ -58,6 +58,7 @@ i:hover {
 .pictures-top-music {
   background-color: rgb(26, 25, 25);
   padding: 40px;
+  padding-bottom: 70px;
 }
 
 .title {
@@ -102,9 +103,14 @@ i:hover {
   margin: 15px;
 }
 
+.container-playlists{
+  max-width: 1200px;
+  margin: 10px auto;
+}
 .stats-playlists {
-  margin: 25px;
+  margin: 25px auto;
   padding: 20px;
+  width: 90%;
 }
 
 .card-stats {
@@ -125,7 +131,14 @@ i:hover {
   color: white;
   font-size: 15px;
 }
-
+.playlists {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+.playlists iframe {
+  margin-bottom: 15px;
+}
 @media (max-width: 600px) {
   header {
     height: 400px;
@@ -139,6 +152,7 @@ i:hover {
   /* CONCERT PICTURES */
   .pictures-top-music {
     padding: 15px;
+    padding-bottom: 40px;
   }
   .title {
     padding: 30px;
@@ -155,7 +169,7 @@ i:hover {
     padding: 30px;
   }
   .stats-playlists {
-    margin: 5px;
+    margin: 5px auto;
     padding: 10px;
   }
   .card-stats {
@@ -165,5 +179,11 @@ i:hover {
   .card-stats h3 {
     font-family: "Unica One", cursive;
     font-size: 25px;
+  }
+  .playlists {
+    margin: 0px;
+  }
+  .playlists iframe {
+    width: 100%;
   }
 }
