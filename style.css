@@ -53,3 +53,32 @@ i:hover {
   cursor: pointer;
   text-shadow: rgb(130, 112, 129) 1px 0 10px;
 }
+
+.pictures-top-music {
+  background-color: rgb(26, 25, 25);
+  padding: 40px;
+}
+
+.title {
+  padding: 50px;
+  padding-bottom: 40px;
+}
+
+.pictures {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 800px;
+}
+
+.pictures-top-music h2 {
+  font-family: "Unica One", cursive;
+  color: white;
+  font-size: 40px;
+}
+
+.align-items-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
