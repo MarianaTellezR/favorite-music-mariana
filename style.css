@@ -103,7 +103,7 @@ i:hover {
   margin: 15px;
 }
 
-.container-playlists{
+.container-playlists {
   max-width: 1200px;
   margin: 10px auto;
 }
@@ -131,13 +131,32 @@ i:hover {
   color: white;
   font-size: 15px;
 }
+
 .playlists {
   display: block;
   margin: 20px;
   text-align: center;
 }
+
 .playlists iframe {
   margin-bottom: 15px;
+}
+
+/* TELEPORT */
+.teleport-section {
+  background-image: linear-gradient(rgba(110, 93, 110, 0.808), rgba(95, 84, 99, 0.925)),
+    url("/img/purple-background.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.teleport-section h1 {
+  color: white;
+  font-family: "Unica One", cursive;
 }
 @media (max-width: 600px) {
   header {
