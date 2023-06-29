@@ -179,6 +179,46 @@ i:hover {
   margin: 20px 0px;
   width: 80%;
 }
+/* ALBUMS */
+.left-albums {
+  background-image: linear-gradient(
+      rgba(110, 93, 110, 0.808),
+      rgba(95, 84, 99, 0.925)
+    ),
+    url("/img/purple-background.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.left-albums h1 {
+  color: white;
+  font-family: "Unica One", cursive;
+}
+
+.left-albums p {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+}
+
+.right-albums {
+  background-color: #827081;
+  margin: 0 auto!important;
+
+}
+
+.grid-albums {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+}
+.right-albums iframe {
+  width: 90%;
+}
 @media (max-width: 600px) {
   header {
     height: 400px;
