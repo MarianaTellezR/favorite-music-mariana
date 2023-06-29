@@ -144,7 +144,10 @@ i:hover {
 
 /* TELEPORT */
 .teleport-section {
-  background-image: linear-gradient(rgba(110, 93, 110, 0.808), rgba(95, 84, 99, 0.925)),
+  background-image: linear-gradient(
+      rgba(110, 93, 110, 0.808),
+      rgba(95, 84, 99, 0.925)
+    ),
     url("/img/purple-background.jpg");
   margin: 0 auto;
   background-size: cover;
@@ -157,6 +160,24 @@ i:hover {
 .teleport-section h1 {
   color: white;
   font-family: "Unica One", cursive;
+}
+
+.teleport-section h2 {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+}
+/* Top Songs */
+.top-songs {
+  background-color: #827081;
+  display: block;
+  margin: 0 auto;
+  padding: 35px 15px;
+}
+
+.top-songs iframe {
+  margin: 20px 0px;
+  width: 80%;
 }
 @media (max-width: 600px) {
   header {
@@ -204,5 +225,14 @@ i:hover {
   }
   .playlists iframe {
     width: 100%;
+  }
+  /*Top songs*/
+  .top-songs {
+    padding: 25px 10px;
+  }
+
+  .top-songs iframe {
+    margin: 10px;
+    width: 95%;
   }
 }
