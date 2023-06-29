@@ -207,17 +207,21 @@ i:hover {
 
 .right-albums {
   background-color: #827081;
-  margin: 0 auto!important;
-
+  padding: 40px 0;
 }
 
 .grid-albums {
   display: grid;
   grid-template-columns: 1fr;
-  align-self: center;
+
+  justify-items: center;
+  align-items: center;
 }
+
 .right-albums iframe {
   width: 90%;
+  height: 200px;
+  padding: 15px 10px;
 }
 @media (max-width: 600px) {
   header {
