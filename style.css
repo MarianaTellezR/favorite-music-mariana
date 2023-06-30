@@ -223,6 +223,49 @@ i:hover {
   height: 200px;
   padding: 15px 10px;
 }
+
+/* FOOTER */
+.footer {
+  background-color: #796378;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer h1 {
+  color: white;
+  font-family: "Unica One", cursive;
+  font-size: 100px;
+}
+
+.footer p {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.footer a {
+  color: rgb(222, 212, 233);
+}
+
+.footer a:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer-icons {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.footer-icons i {
+  color: rgb(230, 216, 235);
+  margin: 10px;
+  font-size: 30px;
+}
+
+.footer-icons i:hover {
+  color: white;
+}
+
 @media (max-width: 600px) {
   header {
     height: 400px;
@@ -278,5 +321,20 @@ i:hover {
   .top-songs iframe {
     margin: 10px;
     width: 95%;
+  }
+  /* Footer */
+  .footer h1 {
+    color: white;
+    font-family: "Unica One", cursive;
+    font-size: 45px;
+  }
+  .footer-icons {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .footer-icons i {
+    margin: 10px 4px;
+    font-size: 25px;
   }
 }
